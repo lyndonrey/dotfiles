@@ -1,0 +1,29 @@
+rofi.color-enabled: true
+!                  bg       border   separator
+rofi.color-window: #ff303030, #99000000, #aaaaaa
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #00000000, #aaaaaa, #00000000, #00000000, #fbf1c7
+
+rofi.separator-style: solid 
+rofi.sidebar-mode: false 
+rofi.bw: 0
+rofi.columns: 1
+rofi.padding: 30 
+
+rofi.yoffset: -100 
+rofi.fake-transparency: false 
+rofi.location: 0  
+rofi.width: 40% 
+rofi.fixed-num-lines: false 
+rofi.fullscreen: false 
+!
+!
+URxvt.background: #000000 
+URxvt.transparent: false
+URxvt.shading: 10
+URxvt.foreground: #ffffff
+URxvt.font: xft:Inconsolata:size=12:antialias=true
+URxvt.scrollBar: false
+URxvt.internalBorder: 20
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
