@@ -30,12 +30,12 @@ fixed-center = true
 
 override-redirect = false
 
-bottom = false 
+bottom = true 
 
-background = #000000 
+background = #00000000 
 foreground = #dddddd
 
-line-size = 0 
+line-size = 4 
 line-color = #000000
 
 border-size = 0 
@@ -82,8 +82,8 @@ label = %title:0:30:...%
 type = internal/bspwm
 
 label-focused = %index%
-label-focused-background = #222222
-label-focused-underline= ${colors.primary}
+label-focused-background = #00444444
+label-focused-underline= #0000ff
 label-focused-padding = 2
 
 label-occupied = %index%
@@ -181,7 +181,7 @@ time-alt = %H:%M:%S
 
 ;format-prefix =  
 ;format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+; format-underline = #0a6cf5
 
 label = %time%  %date%
 

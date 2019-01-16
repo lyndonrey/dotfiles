@@ -18,7 +18,8 @@ rofi.fixed-num-lines: false
 rofi.fullscreen: false 
 !
 !
-URxvt.background: #000000 
+URxvt.depth: 32
+URxvt.background:rgba:0000/0000/0000/dddd
 URxvt.transparent: false
 URxvt.shading: 10
 URxvt.foreground: #ffffff
